@@ -1,4 +1,10 @@
-uri = "C:/GIS/tavistock/aci_2020_on_v1/aci_2020_on.tif"
+# Code created by Aaron Jutzi on December 8, 2021
+# This code is to be used within the python console in QGIS
+# This code will display general information about your specified raster
+
+# Enter your raster's file path below
+# e.g. uri = "C:/GIS/tavistock/aci_2020_on_v1/aci_2020_on.tif"
+uri = " "
 rlayer = iface.addRasterLayer(uri,"my raster","gdal")
  
 if rlayer.isValid():
